@@ -7,7 +7,7 @@ import mysql.connector
 import sqlite3
 import os
 
-# Create my app
+# Create my flask app
 app = Flask(__name__)
 
 cnx = sqlite3.connect('database.db')
