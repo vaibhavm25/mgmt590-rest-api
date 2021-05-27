@@ -115,5 +115,5 @@ def models():
 # Run if running "python answer.py"
 if __name__ == '__main__':
     # Run our Flask app and start listening for requests!
-    app.run(host='0.0.0.0', port=int(os.environ.get("PORT", 8000)), threaded=True)
+    app.run(host='0.0.0.0', port=int(os.environ.get("PORT", 8080)), threaded=True)
 © 2021 GitHub, Inc.
